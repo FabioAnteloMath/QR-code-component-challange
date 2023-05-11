@@ -1,51 +1,50 @@
 body {
   font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
 }
 
 .attribution {
   font-size: 15px;
   text-align: center;
-  color: black;
-  background-color: aqua;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
-  background-color: aqua;
 }
 
 .container {
-  width: 100vw;
-  height: 100vw;
-  background-color: aqua;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #fff;
+  width: 350px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
-
 
 .box {
+  margin: 15px;
+  height: 520px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+.qr {
   width: 300px;
-  height: 500px;
-  background: white;
-  padding-top: 80px;
-  padding: 50px;
-  text-align: center;
   border-radius: 20px;
-  color: gray
-}
-
-span {
-  font-weight: bold;
-  color: black;
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-img {
-    width: 300px;
-    border-radius: 20px;
 }
